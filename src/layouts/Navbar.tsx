@@ -23,7 +23,7 @@ export default function Navbar() {
 
   const handleLogout = () => {
     signOut(auth).then(() => {
-      console.log('Logout Successfully');
+      // console.log('Logout Successfully');
       dispatch(setUser(null));
     });
   };
